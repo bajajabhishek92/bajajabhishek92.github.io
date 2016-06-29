@@ -1,0 +1,52 @@
+.d-b{
+	font-size: 50;	
+}
+
+#SUTD {
+	color:  rgb(232,243,123);
+	color: green;
+}
+
+
+.SUTD {
+	color:  rgb(232,243,123);
+	color: green;
+}
+
+p, h1, h2, h3 {
+	font-family: Helvetica;
+}
+
+body {
+	font-family: Helvetica;
+	background-image: url("./img/SUTD1.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.brand-image{
+	margin-top: 10;
+}
+
+.box{
+	background-color: rgba(75,75,75,0.8);
+
+}
+
+.imgcenter{
+	display: block;
+	margin: auto;
+}
+.textcenter{
+	text-align: center;
+}
+
+.padding{
+	margin-top: 40;
+}
+
+.verticalcard{
+	min-height: 200;
+	padding: 10 10 10 10;
+}
