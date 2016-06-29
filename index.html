@@ -1,6 +1,15 @@
 <link href='./css/bootstrap.min.css' rel="stylesheet">
 <link href= "./index.css" rel="stylesheet"> <!-- this is to connect to the index.css file relationship is rel-->
 
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.6&appId=1554882578148951";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
 <!--div class="container">
 	<div class="row">
 		<div class="col-xs-12 col-sm-6">
@@ -142,6 +151,7 @@
 	</div>
 </div>
 
+<div class="fb-follow" data-href="https://www.facebook.com/abhishek.bajaj.1806" data-width="500" data-height="300" data-layout="box_count" data-size="large" data-show-faces="true"></div>
 
 <script src="./js/jquery.min.js"></script>
 <script src="./js/bootstrap.min.js"></script>
